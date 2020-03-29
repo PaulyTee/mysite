@@ -1,0 +1,127 @@
+/****************element selectors*****************/
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: ivory;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #706c61;
+    border-width: 5px;
+    width: 5%;
+}
+
+/****************class selectors*****************/
+.top-container {
+    background-color: #eaf6f6;
+    padding-top: 100px;
+    position: relative;
+    line-height: 200%;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    color: #eaf6f6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.middle-container {
+    padding: 100px 0;
+}
+.span-web {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    Position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    Position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.laptop {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.computer {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.footer-link {
+    color: #11999E;
+    font-family: 'Merriweather', serif;
+    padding-left: 2%;
+    font-weight: normal;
+    text-decoration: none;
+    
+
+}
+
+.btn {
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px;
+    background-color: #11999E;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 100 auto 100 auto;
+    
+}
+
+.btn:hover {
+    background: #66BFBF;
+    border: solid #FFFFFF 1px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.profile {
+    margin: 100px auto 100px auto;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
